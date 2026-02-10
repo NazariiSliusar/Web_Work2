@@ -1,0 +1,37 @@
+html,body {
+  min-height: 100%;
+  background: linear-gradient(135deg, #0f1724 0%, #162235 40%, #101a2b 70%, #0b1320 100%);
+}
+
+.header-text {
+  color: #ffffff;
+  font-size: 400%;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+}
+
+.container-fluid{
+  background-image: url("../img/banner.svg");
+  width: 60%;
+  margin-top: 20px;
+}
+
+.banner-good {
+  border: 3px solid rgba(23, 181, 9, 1);
+}
+
+.banner-warning {
+  border: 3px solid rgba(255, 235, 59, 1);
+  background-color: rgba(255, 235, 59, 0.1);
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+.banner-error {
+  border: 3px solid rgba(220, 53, 69, 1);
+  background-color: rgba(220, 53, 69, 0.2);
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
