@@ -1,6 +1,6 @@
 html,body {
   min-height: 100%;
-  background: linear-gradient(135deg, #0f1724 0%, #162235 40%, #101a2b 70%, #0b1320 100%);
+  background: linear-gradient(135deg, #0f1724 0%, #162235 40%, #101a2b 70%, #0b1320 100%) fixed;
 }
 
 .header-text {
@@ -35,3 +35,18 @@ html,body {
   background-blend-mode: overlay;
 }
 
+.active_status {
+  width: 40%;
+  margin: 1px auto 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.status_text {
+  background: #1e293b;
+  color: white;
+  padding: 1px 3px;
+  border-radius: 0 0 30px 30px;
+  text-align: center;
+  width: 100%;
+}
